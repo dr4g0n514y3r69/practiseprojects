@@ -1,6 +1,6 @@
 def gcf():
-    num1 = input("Please insert the bigger number: ")
-    num2 = input("Please insert the smaller number: ")
+    num1 = input("Please enter the first number: ")
+    num2 = input("Please enter the second number: ")
     remainder = int(num1) % int(num2)
     while remainder != 0:
         num1 = num2
@@ -10,8 +10,8 @@ def gcf():
 
 
 def lcm():
-    num1 = input("Please insert the bigger number: ")
-    num2 = input("Please insert the smaller number: ")
+    num1 = input("Please enter the first number: ")
+    num2 = input("Please enter the second number: ")
     pre_lcm = int(num1) * int(num2)
     remainder = int(num1) % int(num2)
     while remainder != 0:
